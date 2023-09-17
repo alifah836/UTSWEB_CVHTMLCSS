@@ -1,0 +1,331 @@
+/* Ini adalah selector universal yang memengaruhi semua elemen dalam halaman HTML.
+   Mengatur padding, margin, dan menghilangkan dekorasi teks. */
+   * {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+/* Ini mengatur tampilan latar belakang, tinggi, dan lebar elemen dengan class "home". */
+.home {
+    height: 100vh;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+/* Ini mengatur tampilan navigasi, seperti latar belakang, padding, dan batas bawah. */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+    background-color: #d13636;
+    border-bottom: 3px solid rgb(120, 115, 115);
+}
+
+/* Ini mengatur tampilan logo, seperti warna teks dan ukuran font. */
+.logo {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+/* Ini mengatur tampilan teks yang berada dalam elemen <span>. */
+span {
+    color: rgb(255, 255, 255);  
+}
+
+/* Ini mengatur tampilan elemen daftar dalam navigasi. */
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+/* Ini mengatur tampilan tautan dalam elemen daftar navigasi. */
+nav ul li a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+/* Ini mengatur tampilan tautan saat dihover dengan warna merah. */
+nav ul li a:hover {
+    color: red;
+    transform: 0,5s; /* Mungkin harus menjadi "transform: 0.5s;" tanpa koma. */
+}
+
+/* Ini mengatur tampilan elemen dengan class "image". */
+.image {
+    width: 35%;
+    height: 35%;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+}
+
+/* Ini mengatur tampilan gambar dalam elemen dengan class "image". */
+.image img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 23%;
+    transform: translateX(20%);
+}
+
+/* Ini mengatur tampilan elemen dengan class "content". */
+.content {
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translateX(-50%);
+}
+
+/* Ini mengatur tampilan teks dengan tag <h4>. */
+h4 {
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+/* Ini mengatur tampilan teks dengan tag <h1>. */
+h1 {
+    color: #ca2e2e;
+    font-size: 65px;
+    margin: 20px 0 20px;
+}
+
+/* Ini mengatur tampilan teks dengan tag <h3>. */
+H3 {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+/* Ini mengatur tampilan tautan dalam elemen dengan class "content". */
+.content a {
+    font-size: 15px;
+    background: #ec5050;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 30px;
+    border: 2px solid rgb(120, 115, 115);
+    transition: .5s;
+}
+
+/* Ini mengatur tampilan tautan saat dihover dengan latar belakang transparan dan border. */
+.content a:hover {
+    background: transparent;
+    border: 2px solid #355a76;
+}
+/* Ini mengatur tampilan elemen dengan class "about". */
+.about {
+    width: 100%;
+    padding: 50px 0;
+    background-color: rgb(92, 88, 88);
+}
+
+/* Ini mengatur tampilan elemen dengan class "about-me". */
+.about-me {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Ini mengatur tampilan gambar dalam elemen dengan class "about-me". */
+.about-me img {
+    height: auto;
+    width: 430px;
+    border-radius: 10px;
+}
+
+/* Ini mengatur tampilan teks dalam elemen dengan class "about-text". */
+.about-text {
+    width: 550px;
+}
+
+/* Ini mengatur tampilan teks dalam elemen dengan tag <h2> dalam class "about-text". */
+.about-text h2 {
+    color: #ce3a3a;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+/* Ini mengatur tampilan teks dalam elemen dengan tag <h5> dalam class "about-text". */
+.about-text h5 {
+    color: black;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+/* Ini mengatur tampilan paragraf dalam elemen dengan class "about-text". */
+.about-text p {
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+
+/* Ini mengatur tampilan tautan dalam elemen dengan class "button". */
+.button {
+    background-color: #355a76;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+/* Ini mengatur tampilan tautan saat dihover dengan latar belakang transparan dan border. */
+.button:hover {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+}
+
+/* Ini mengatur tampilan elemen dengan class "skill". */
+.skill {
+    background: #d45959;
+    width: 100%;
+    padding: 100px 0;
+}
+
+/* Ini mengatur tampilan teks dalam elemen dengan tag <h2> dalam class "title". */
+.title h2 {
+    color: #000000;
+    font-size: 75px;
+    width: 100%;
+    margin-bottom: 50px auto;
+    text-align: center;
+}
+
+/* Ini mengatur tampilan elemen dengan class "box". */
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+/* Ini mengatur tampilan elemen dengan class "card". */
+.card {
+    height: 350px;
+    width: 250px;
+    padding: 50px 50px;
+    background: #d84747;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid rgb(120, 115, 115);
+}
+
+/* Ini mengatur tampilan ikon dalam elemen dengan class "card". */
+.card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 50px 0;
+    color: rgb(165, 53, 53);
+}
+
+/* Ini mengatur tampilan teks dalam elemen dengan class "card". */
+.card h5 {
+    color: black;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+/* Ini mengatur tampilan paragraf dalam elemen dengan class "pra". */
+.pra p {
+    color: black;
+    font-size: 15px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+/* Ini mengatur tampilan tautan dalam elemen paragraf dengan class "pra". */
+.pra p a {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 2px solid black;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+}
+
+/* Ini mengatur tampilan tautan saat dihover dengan latar belakang transparan dan border. */
+.pra p a:hover {
+    background-color: transparent;
+    border: 2px solid rgb(120, 115, 115);
+    cursor: pointer;
+}
+/* Ini mengatur tampilan elemen dengan class "contact-text". */
+.contact-text {
+    width: 94%;
+    padding: 50px;
+    background-color: rgb(120, 115, 115);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Ini mengatur tampilan teks dalam elemen dengan class "contact-text" dengan tag <h2>. */
+.contact-text h2 {
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Ini mengatur tampilan elemen dengan class "contact-box". */
+.contact-box {
+    color: rgb(0, 0, 0);
+}
+
+/* Ini mengatur tampilan teks dalam elemen dengan class "contact-box" setelah elemen "contact-box". */
+.contact-box:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* Ini mengatur tampilan elemen dengan class "contact". */
+.contact {
+    width: 25%;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+}
+
+/* Ini mengatur tampilan teks dalam elemen "contact" dengan tag <h4>. */
+.contact h4 {
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+/* Ini mengatur tampilan teks dalam elemen "contact" dengan tag <p>. */
+.contact p {
+    font-size: 18px;
+}
